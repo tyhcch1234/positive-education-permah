@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PERMAH 正向教育｜寫給中學生的幸福練習</title>
+<meta name="description" content="用 PERMAH 六大元素（正向情緒、投入、關係、意義、成就、健康）理解正向教育，附香港中學生應用例子、真實人物見證與一分鐘自我檢視。">
+<meta name="theme-color" content="#0E6B63">
+<meta property="og:title" content="PERMAH 正向教育｜寫給中學生的幸福練習">
+<meta property="og:description" content="幸福不是運氣，是可以練習的能力。六大元素 × 中學生例子 × 真實見證。">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+TC:wght@400;500;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%230E6B63'/><text x='50' y='70' font-size='56' font-family='serif' fill='white' text-anchor='middle'>P</text></svg>">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<div id="scrollbar" aria-hidden="true"></div>
+
+<header class="site" id="siteHeader">
+  <div class="wrap">
+    <nav class="nav" aria-label="主導覽">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">P</span>
+        <span class="brand-txt">
+          <b>PERMAH 正向教育</b>
+          <span>Positive Education</span>
+        </span>
+      </a>
+
+      <button class="burger" id="burger" aria-label="開啟選單" aria-expanded="false" aria-controls="navlinks">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="navlinks" id="navlinks">
+        <a href="#why">為何重要</a>
+        <a href="#perma">六大元素</a>
+        <a href="#check">自我檢視</a>
+        <a href="#week">一週實踐</a>
+        <a href="#myths">破解迷思</a>
+        <a href="#help">求助資源</a>
+        <a class="nav-cta" href="#check">開始 1 分鐘檢視</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">正向教育 · 中學生版</span>
+        <h1>幸福不是運氣，<br>是一套可以<em>練習</em>的能力。</h1>
+        <p class="hero-sub">
+          PERMAH 把「過得好」拆成六件具體的事——正向情緒、投入、關係、意義、成就、健康。
+          這頁寫給正在應付測驗、DSE、家人期望與自己期望的你：六個元素，六個真實故事，一堆今日就做得到的小動作。
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#perma">
+            看六大元素
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="#check">
+            做 1 分鐘自我檢視
+          </a>
+        </div>
+        <p class="hero-note">
+          <b>6 個元素</b> · <b>6 個真實見證</b> · 全部附出處
+        </p>
+      </div>
+
+      <div class="wheel-card">
+        <svg id="wheel" viewBox="-40 -40 400 400" role="img" aria-label="PERMAH 六個元素構成的輪盤：正向情緒、投入、關係、意義、成就、健康">
+          <g class="ring">
+            <polygon points="160,60 246.6,110 246.6,210 160,260 73.4,210 73.4,110"/>
+            <polygon points="160,88 224.2,125 224.2,195 160,232 95.8,195 95.8,125"/>
+            <polygon points="160,116 201.8,140 201.8,180 160,204 118.2,180 118.2,140"/>
+          </g>
+          <g class="spoke">
+            <line x1="160" y1="160" x2="160" y2="52"/>
+            <line x1="160" y1="160" x2="253.5" y2="106"/>
+            <line x1="160" y1="160" x2="253.5" y2="214"/>
+            <line x1="160" y1="160" x2="160" y2="268"/>
+            <line x1="160" y1="160" x2="66.5" y2="214"/>
+            <line x1="160" y1="160" x2="66.5" y2="106"/>
+          </g>
+
+          <circle class="core" cx="160" cy="160" r="34"/>
+          <text class="core-txt" x="160" y="166" text-anchor="middle">PERMAH</text>
+
+          <g class="node">
+            <circle class="bubble" cx="160" cy="52" r="26" fill="#DE6547"/>
+            <text x="160" y="60" text-anchor="middle" font-family="serif" font-size="20" font-weight="700" fill="#fff">P</text>
+            <text class="node-label" x="160" y="8" text-anchor="middle">正向情緒</text>
+          </g>
+          <g class="node">
+            <circle class="bubble" cx="253.5" cy="106" r="26" fill="#C9942F"/>
+            <text x="253.5" y="114" text-anchor="middle" font-family="serif" font-size="20" font-weight="700" fill="#fff">E</text>
+            <text class="node-label" x="288" y="111" text-anchor="start">投入</text>
+          </g>
+          <g class="node">
+            <circle class="bubble" cx="253.5" cy="214" r="26" fill="#0E6B63"/>
+            <text x="253.5" y="222" text-anchor="middle" font-family="serif" font-size="20" font-weight="700" fill="#fff">R</text>
+            <text class="node-label" x="288" y="219" text-anchor="start">關係</text>
+          </g>
+          <g class="node">
+            <circle class="bubble" cx="160" cy="268" r="26" fill="#6F63A8"/>
+            <text x="160" y="276" text-anchor="middle" font-family="serif" font-size="20" font-weight="700" fill="#fff">M</text>
+            <text class="node-label" x="160" y="316" text-anchor="middle">意義</text>
+          </g>
+          <g class="node">
+            <circle class="bubble" cx="66.5" cy="214" r="26" fill="#2F7E96"/>
+            <text x="66.5" y="222" text-anchor="middle" font-family="serif" font-size="20" font-weight="700" fill="#fff">A</text>
+            <text class="node-label" x="32" y="219" text-anchor="end">成就</text>
+          </g>
+          <g class="node">
+            <circle class="bubble" cx="66.5" cy="106" r="26" fill="#5E8B4E"/>
+            <text x="66.5" y="114" text-anchor="middle" font-family="serif" font-size="20" font-weight="700" fill="#fff">H</text>
+            <text class="node-label" x="32" y="111" text-anchor="end">健康</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 數據 ================= -->
+  <section class="stats" id="why">
+    <div class="wrap">
+      <div class="stats-head reveal">
+        <h2>為什麼學校開始談「幸福」？</h2>
+        <p>因為數據告訴我們：成績與情緒，從來不是兩條平行線。以下三個數字，是香港中學生的現況。</p>
+      </div>
+
+      <div class="stat-grid">
+        <article class="stat reveal" style="--accent:#DE6547">
+          <div class="stat-num">25.5<span>%</span></div>
+          <p>受訪中學生出現<strong>中度至非常嚴重的抑鬱徵狀</strong>；另有 20.5% 有同程度的焦慮徵狀。</p>
+          <cite>浸信會愛羣社會服務處《2024 年中學生幸福感調查》</cite>
+        </article>
+
+        <article class="stat reveal" style="--accent:#C9942F">
+          <div class="stat-num">42.6<span>%</span></div>
+          <p>受訪學生自評壓力達 <strong>7–10 分</strong>（10 分滿分），屬偏高水平；平均壓力指數 5.9 分。</p>
+          <cite>香港青年協會《2025 中學生開學適應調查》，5,551 名學生</cite>
+        </article>
+
+        <article class="stat reveal" style="--accent:#0E6B63">
+          <div class="stat-num">29.3<span>%</span></div>
+          <p>受訪學生壓力程度達<strong>中度或以上</strong>，已到「必須關注」的水平；17% 屬嚴重或非常嚴重。</p>
+          <cite>香港中華基督教青年會《香港中學生精神健康素養調查》2024</cite>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PERMAH ================= -->
+  <section class="section-pad" id="perma">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">六大元素</span>
+        <h2>PERMAH：把「過得好」拆成六件可做的事</h2>
+        <p>
+          正向心理學之父 Martin Seligman 提出 <strong>PERMA</strong> 五要素，用來描述「蓬勃發展」（flourishing）而非單純「開心」。
+          正向教育在學校實踐時，通常加上 <strong>H（Health 健康）</strong>，成為 PERMAH——因為睡眠、運動與體力，是支撐其餘五項的底座。
+          每個元素都可以獨立鍛鍊，也可以互相帶動。
+        </p>
+      </div>
+
+      <div class="perma-layout">
+        <!-- 分頁 -->
+        <div class="tablist" role="tablist" aria-label="PERMAH 六大元素" aria-orientation="vertical">
+          <button class="tab" role="tab" id="tab-p" aria-controls="panel-p" aria-selected="true" data-target="p" style="--accent:#DE6547;--tint:#FBEDE8">
+            <span class="letter" aria-hidden="true">P</span>
+            <span><span class="t-name">正向情緒</span><span class="t-en">Positive Emotion</span></span>
+          </button>
+          <button class="tab" role="tab" id="tab-e" aria-controls="panel-e" aria-selected="false" tabindex="-1" data-target="e" style="--accent:#C9942F;--tint:#FAF1DF">
+            <span class="letter" aria-hidden="true">E</span>
+            <span><span class="t-name">投入</span><span class="t-en">Engagement</span></span>
+          </button>
+          <button class="tab" role="tab" id="tab-r" aria-controls="panel-r" aria-selected="false" tabindex="-1" data-target="r" style="--accent:#0E6B63;--tint:#E4F0ED">
+            <span class="letter" aria-hidden="true">R</span>
+            <span><span class="t-name">人際關係</span><span class="t-en">Relationships</span></span>
+          </button>
+          <button class="tab" role="tab" id="tab-m" aria-controls="panel-m" aria-selected="false" tabindex="-1" data-target="m" style="--accent:#6F63A8;--tint:#EFECF7">
+            <span class="letter" aria-hidden="true">M</span>
+            <span><span class="t-name">意義</span><span class="t-en">Meaning</span></span>
+          </button>
+          <button class="tab" role="tab" id="tab-a" aria-controls="panel-a" aria-selected="false" tabindex="-1" data-target="a" style="--accent:#2F7E96;--tint:#E5F0F4">
+            <span class="letter" aria-hidden="true">A</span>
+            <span><span class="t-name">成就</span><span class="t-en">Accomplishment</span></span>
+          </button>
+          <button class="tab" role="tab" id="tab-h" aria-controls="panel-h" aria-selected="false" tabindex="-1" data-target="h" style="--accent:#5E8B4E;--tint:#EDF3E8">
+            <span class="letter" aria-hidden="true">H</span>
+            <span><span class="t-name">健康</span><span class="t-en">Health</span></span>
+          </button>
+        </div>
+
+        <!-- 內容 -->
+        <div class="panels">
+
+          <!-- P -->
+          <article class="panel" role="tabpanel" id="panel-p" aria-labelledby="tab-p" tabindex="0" style="--accent:#DE6547;--tint:#FBEDE8">
+            <div class="panel-top">
+              <div class="panel-letter" aria-hidden="true">P</div>
+              <div>
+                <h3>正向情緒</h3>
+                <div class="en">Positive Emotion</div>
+              </div>
+            </div>
+            <p class="definition">
+              體驗愉快、感恩、希望與平靜的能力。它不是「強迫自己開心」，而是<strong>讓好消息在腦裡停留久一點</strong>——心理學稱之為細味（savoring）與感恩練習。
+            </p>
+
+            <div class="block-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 3v18M5 8l14 8M19 8L5 16"/></svg>
+              中學生怎樣用
+            </div>
+            <ul class="plain">
+              <li><b>睡前寫「三件好事」：</b>不只寫發生什麼，加一句「為什麼會發生」。例如「今日組員幫我補回請假那天嘅筆記，因為佢知我驚追唔上」。</li>
+              <li><b>考完試換一條問題：</b>由「我錯咗咩」改成「我學識咗咩、下次點做」。同一份卷，兩種情緒走向。</li>
+              <li><b>搭車 3 分鐘呼吸：</b>吸 4 秒、呼 6 秒，做 10 次。情緒由「爆錶」變成「可以處理」。</li>
+              <li><b>刻意製造小確幸：</b>把喜歡的歌留到放學路上聽、把零食分半留到溫習中段——期待感本身就是正向情緒。</li>
+            </ul>
+
+            <div class="block-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7L12 17.3 6.1 20.5l1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+              真人見證
+            </div>
+            <div class="witness">
+              <p class="ctx">
+                2024 年巴黎奧運前一個月，江旻憓在亞洲錦標賽因膝傷退賽。面對外界擔心，她在授旗禮上這樣回應——沒有否認傷勢，而是把它重新框成自己的長處。
+              </p>
+              <blockquote>「克服傷患是我強項！」</blockquote>
+              <div class="who"><b>江旻憓</b><span>香港劍擊代表 · 2024 巴黎奧運女子重劍個人賽金牌</span></div>
+              <span class="src">出處：<a href="https://www.hkelite.org/tc/archives/14417" target="_blank" rel="noopener">體路《江旻憓膝傷下全力備戰》2024-07-10</a></span>
+            </div>
+
+            <div class="action-strip">
+              <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12l4 4L19 6"/></svg></span>
+              <p><strong>今日就做</strong>今晚寫 3 件好事，其中 1 件要寫「為什麼」。不用寫得靚，寫得真就夠。</p>
+            </div>
+
+            <div class="panel-nav">
+              <span></span>
+              <button type="button" data-goto="e">下一個：投入 →</button>
+            </div>
+          </article>
+
+          <!-- E -->
+          <article class="panel" role="tabpanel" id="panel-e" aria-labelledby="tab-e" tabindex="0" hidden style="--accent:#C9942F;--tint:#FAF1DF">
+            <div class="panel-top">
+              <div class="panel-letter" aria-hidden="true">E</div>
+              <div>
+                <h3>投入</h3>
+                <div class="en">Engagement</div>
+              </div>
+            </div>
+            <p class="definition">
+              全神貫注在一件「有挑戰但做得到」的事，進入<strong>心流</strong>（flow）：時間感消失、自我意識退場，過程本身就是回報。關鍵不是努力，而是<strong>難度剛剛好</strong>。
+            </p>
+
+            <div class="block-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/></svg>
+              中學生怎樣用
+            </div>
+            <ul class="plain">
+              <li><b>25 分鐘只做一件事：</b>番茄鐘不是為了「溫更久」，而是讓大腦有一次完整的投入。一次只開一科、一頁。</li>
+              <li><b>把難度調到 i+1：</b>題目太易會悶、太難會逃。揀「做得到但要想一想」的題目，心流才會出現。</li>
+              <li><b>為練習設具體目標：</b>「今日練好這 8 小節」、「今日投 50 球罰球」，比「練琴」、「練波」更能帶你入狀態。</li>
+              <li><b>手機放另一個房間：</b>投入最大的敵人不是懶，是通知。物理距離比意志力可靠。</li>
+            </ul>
+
+            <div class="block-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7L12 17.3 6.1 20.5l1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+              真人見證
+            </div>
+            <div class="witness">
+              <p class="ctx">
+                谷愛凌 18 歲時已在世界盃做出女子選手從未完成的動作。外界叫她「天才少女」，但新華社專訪裡，她提及最多的詞是「熱愛」。</p>
+              <blockquote>「我一直熱愛滑雪，挑戰自己，打破自己的界限，然後和其他人去分享。不管是哪個國家，多大的男孩、女孩，我希望所有人都去享受運動。」</blockquote>
+              <div class="who"><b>谷愛凌 Eileen Gu</b><span>自由式滑雪奧運金牌得主</span></div>
+              <span class="src">出處：<a href="http://www.news.cn/2021-12/07/c_1128139747.htm" target="_blank" rel="noopener">新華社《谷爱凌：当年滑雪队里唯一的女孩》2021-12-07</a></span>
+            </div>
+
+            <div class="action-strip">
+              <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12l4 4L19 6"/></svg></span>
+              <p><strong>今日就做</strong>揀一科你最不想打開的，設 25 分鐘計時器，只做這一科。完結後寫一句「我卡在哪裡」。</p>
+            </div>
+
+            <div class="panel-nav">
+              <button type="button" data-goto="p">← 正向情緒</button>
+              <button type="button" data-goto="r">下一個：關係 →</button>
+            </div>
+          </article>
+
+          <!-- R -->
+          <article class="panel" role="tabpanel" id="panel-r" aria-labelledby="tab-r" tabindex="0" hidden style="--accent:#0E6B63;--tint:#E4F0ED">
+            <div class="panel-top">
+              <div class="panel-letter" aria-hidden="true">R</div>
+              <div>
+                <h3>人際關係</h3>
+                <div class="en">Relationships</div>
+              </div>
+            </div>
+            <p class="definition">
+              有質素的連結：被理解、被支持，也支持別人。關係是壓力的<strong>緩衝器</strong>——同樣的挫折，有人陪著經歷，身體的壓力反應會不一樣。
+            </p>
+
+            <div class="block-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><circle cx="17" cy="10" r="2.4"/><path d="M3 20c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5M15.5 20c0-2.4 1.1-4.1 3-4.6"/></svg>
+              中學生怎樣用
+            </div>
+            <ul class="plain">
+              <li><b>問一句真話：</b>「你最近還好嗎？」比「食咗未」多一層。追問一句「真係？」通常就是對方等的那句。</li>
+              <li><b>小組專題不只分工：</b>開會前用 3 分鐘講「這星期誰最忙」，再分工作。被看見的人，會更願意補位。</li>
+              <li><b>晚飯 20 分鐘無手機：</b>同桌不等於有連結。20 分鐘已經足夠講完一日。</li>
+              <li><b>吵架後用「我訊息」：</b>「我感到…因為…我希望…」代替「你成日…」。修復關係的能力，比不吵架更重要。</li>
+            </ul>
+
+            <div class="block-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7L12 17.3 6.1 20.5l1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+              真人見證
+            </div>
+            <div class="witness">
+              <p class="ctx">
+                2016 年里約奧運，李慧詩在賽事中受傷，傷口反覆撕裂仍強撐說不痛。報道記錄的不是獎牌，而是教練沈金康的反應——他心痛，因為他看得出她在忍。
+              </p>
+              <blockquote>「愛徒傷口撕裂，沈金康心痛不已……不單因 Sarah 傷口反覆撕開劇痛，仍強撐說不痛。」</blockquote>
+              <div class="who"><b>李慧詩 · 沈金康</b><span>香港單車代表與總教練，合作十多年的師徒</span></div>
+              <span class="src">出處：<a href="https://orientaldaily.on.cc/cnt/news/20160818/00176_142.html" target="_blank" rel="noopener">《東方日報》奧運專題 2016-08-18</a></span>
+            </div>
+
+            <div class="action-strip">
+              <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12l4 4L19 6"/></svg></span>
+              <p><strong>今日就做</strong>揀一個你平時好少講話的同學，問一句「你最近點呀？」然後聽多過講。</p>
+            </div>
+
+            <div class="panel-nav">
+              <button type="button" data-goto="e">← 投入</button>
+              <button type="button" data-goto="m">下一個：意義 →</button>
+            </div>
+          </article>
+
+          <!-- M -->
+          <article class="panel" role="tabpanel" id="panel-m" aria-labelledby="tab-m" tabindex="0" hidden style="--accent:#6F63A8;--tint:#EFECF7">
+            <div class="panel-top">
+              <div class="panel-letter" aria-hidden="true">M</div>
+              <div>
+                <h3>意義</h3>
+                <div class="en">Meaning &amp; Mattering</div>
+              </div>
+            </div>
+            <p class="definition">
+              覺得自己<strong>屬於</strong>、也<strong>貢獻</strong>於比「我」更大的東西——家人、班、社群、信念或理想。Seligman 近年也強調「mattering」：相信自己對別人是重要的、有份量的。
+            </p>
+
+            <div class="block-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 21s-7-4.4-7-9.5A4.5 4.5 0 0 1 12 7a4.5 4.5 0 0 1 7 4.5C19 16.6 12 21 12 21z"/></svg>
+              中學生怎樣用
+            </div>
+            <ul class="plain">
+              <li><b>做一次義工，然後寫「我為誰帶來了什麼」：</b>意義感來自具體的痕跡，不是抽象的「做好人」。</li>
+              <li><b>把學科連到一個真實問題：</b>讀生物是因為想聽懂家人的病、讀經濟是因為想幫屋企盤數。同一科，兩種動力。</li>
+              <li><b>在班會或學會擔一個小職位：</b>「因為我，這件事順利了」是最直接的存在感。</li>
+              <li><b>寫「我的存在對誰重要」：</b>列出 3 個人。當你覺得自己沒用時，拿出來看。</li>
+            </ul>
+
+            <div class="block-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7L12 17.3 6.1 20.5l1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+              真人見證
+            </div>
+            <div class="witness">
+              <p class="ctx">
+                余翠怡 16 歲因骨癌截肢，卻在輪椅劍擊拿下四屆殘奧七金三銀一銅。她在香港體育學院運動員網誌寫下這段話，談的不是獎牌，而是「失去」如何變成「另一扇門」。
+              </p>
+              <blockquote>「上天關閉了一扇門，定必開啟另外一扇，只要我們對明天抱有希望，努力做好自己，我相信，每一個人都可以成為自己生命中的冠軍。」</blockquote>
+              <div class="who"><b>余翠怡</b><span>香港輪椅劍擊代表 · 殘奧七金得主</span></div>
+              <span class="src">出處：<a href="https://www.hksi.org.hk/tc/publication/athletes-blog/201607a" target="_blank" rel="noopener">香港體育學院《運動員網誌：生命的另一扇門》2016-07</a></span>
+            </div>
+
+            <div class="action-strip">
+              <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12l4 4L19 6"/></svg></span>
+              <p><strong>今日就做</strong>寫一句：「如果我有能力，我最想改善身邊哪一件事？」然後想一個這星期做得到的最小版本。</p>
+            </div>
+
+            <div class="panel-nav">
+              <button type="button" data-goto="r">← 關係</button>
+              <button type="button" data-goto="a">下一個：成就 →</button>
+            </div>
+          </article>
+
+          <!-- A -->
+          <article class="panel" role="tabpanel" id="panel-a" aria-labelledby="tab-a" tabindex="0" hidden style="--accent:#2F7E96;--tint:#E5F0F4">
+            <div class="panel-top">
+              <div class="panel-letter" aria-hidden="true">A</div>
+              <div>
+                <h3>成就</h3>
+                <div class="en">Accomplishment</div>
+              </div>
+            </div>
+            <p class="definition">
+              為了掌握、進步與「做到」而努力，即使沒有掌聲也值得。重點是<strong>跟自己比</strong>：看見自己的斜率，而不是只看排名。
+            </p>
+
+            <div class="block-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 19V9M10 19V5M16 19v-7M22 19H2"/></svg>
+              中學生怎樣用
+            </div>
+            <ul class="plain">
+              <li><b>把大目標切到「本週可見」：</b>「一週完成 3 篇閱讀理解」比「英文進步」可執行。</li>
+              <li><b>記錄進步曲線：</b>分數、時間、次數都可以。看到線向上，比老師讚一句更持久。</li>
+              <li><b>設過程目標：</b>「每日 30 分鐘」是你控制得到的；「考 5**」不是。控制得到的，才不會變成焦慮。</li>
+              <li><b>完成後刻意慶祝：</b>一杯珍珠奶茶、一集動畫都算。大腦需要知道「做完是有回報的」。</li>
+            </ul>
+
+            <div class="block-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7L12 17.3 6.1 20.5l1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+              真人見證
+            </div>
+            <div class="witness">
+              <p class="ctx">
+                張家朗在巴黎奧運衛冕男子花劍，成為香港首位在奧運蟬聯金牌的運動員。賽前他自覺狀態一般，賽後他講的不是天份，而是心態與堅持。
+              </p>
+              <blockquote>「即使落敗也要拚盡每一劍，最重要是相信自己，不要因為香港是一個很小的地方，就放棄而不去堅持。」</blockquote>
+              <div class="who"><b>張家朗</b><span>香港劍擊代表 · 2020 東京及 2024 巴黎奧運金牌</span></div>
+              <span class="src">出處：<a href="https://hk.news.yahoo.com/%E5%B7%B4%E9%BB%8E%E5%A5%A7%E9%81%8B%E7%9B%B4%E6%93%8A-%E5%BC%B5%E5%AE%B6%E6%9C%97-%E9%A6%99%E6%B8%AF%E5%9C%B0%E6%96%B9%E9%9B%96%E5%B0%8F-%E4%BD%86%E7%9B%B8%E4%BF%A1%E8%87%AA%E5%B7%B1%E5%B0%B1%E8%83%BD%E5%81%9A%E5%BE%88%E5%A4%9A%E4%BA%8B-223407633.html" target="_blank" rel="noopener">香港電台報道（Yahoo 新聞轉載）2024-07-30</a></span>
+            </div>
+
+            <div class="action-strip">
+              <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12l4 4L19 6"/></svg></span>
+              <p><strong>今日就做</strong>揀一個 7 日內一定做得到的小目標，寫下「完成準則」。7 日後回頭打勾。</p>
+            </div>
+
+            <div class="panel-nav">
+              <button type="button" data-goto="m">← 意義</button>
+              <button type="button" data-goto="h">下一個：健康 →</button>
+            </div>
+          </article>
+
+          <!-- H -->
+          <article class="panel" role="tabpanel" id="panel-h" aria-labelledby="tab-h" tabindex="0" hidden style="--accent:#5E8B4E;--tint:#EDF3E8">
+            <div class="panel-top">
+              <div class="panel-letter" aria-hidden="true">H</div>
+              <div>
+                <h3>健康</h3>
+                <div class="en">Health &amp; Vitality</div>
+              </div>
+            </div>
+            <p class="definition">
+              睡眠、運動、飲食與休息。Seligman 原始的 PERMA 是五個元素；學校實踐常加入 <strong>Health</strong> 成為 PERMAH——因為<strong>身體是其他五項的底座</strong>，睡不夠的人很難感恩，也很難投入。
+            </p>
+
+            <div class="block-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 12h4l2-5 3 10 2-5h7"/></svg>
+              中學生怎樣用
+            </div>
+            <ul class="plain">
+              <li><b>固定起床時間：</b>比固定睡覺時間更有效。週末不要相差超過一小時，生理時鐘才穩。</li>
+              <li><b>每日 20 分鐘中等強度運動：</b>快走、跳繩、打球、跳舞都算。運動對情緒的效果，接近一次「天然的抗抑鬱」。</li>
+              <li><b>睡前 30 分鐘離線：</b>不是為了自律，是為了避免「報復性滑手機」偷走你兩小時。</li>
+              <li><b>用 1–10 分自評疲倦：</b>5 分以下就休息，而不是再加一杯咖啡。身體的訊號要當數據看。</li>
+            </ul>
+
+            <div class="block-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7L12 17.3 6.1 20.5l1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+              真人見證
+            </div>
+            <div class="witness">
+              <p class="ctx">
+                鄭秀文在 2000 年代中曾因抑鬱停工數年，其後復出並長期保持跑步習慣，每天約 8 公里，持續十多年。她多次在訪問中把康復與運動連在一起。
+              </p>
+              <blockquote>「運動救了我。」</blockquote>
+              <div class="who"><b>鄭秀文</b><span>香港歌手、演員</span></div>
+              <span class="src">出處：<a href="https://www.sohu.com/a/479280310_121057625" target="_blank" rel="noopener">媒體報道整理（引述《魯豫有約》訪問）</a>　·　此為媒體轉述，非逐字官方文稿。</span>
+            </div>
+
+            <div class="action-strip">
+              <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12l4 4L19 6"/></svg></span>
+              <p><strong>今日就做</strong>今晚比平時早 30 分鐘放低手機，把它放在床頭伸不到的位置。</p>
+            </div>
+
+            <div class="panel-nav">
+              <button type="button" data-goto="a">← 成就</button>
+              <span></span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 自我檢視 ================= -->
+  <section class="section-pad" id="check" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">1 分鐘自我檢視</span>
+        <h2>你的六個元素，哪一個最缺？</h2>
+        <p>沒有對錯，也不是診斷。純粹讓你看到自己的形狀——通常最凹的那一格，就是這星期值得花一點力氣的地方。</p>
+      </div>
+
+      <div class="check-wrap reveal">
+        <div class="sliders" id="sliders">
+          <div class="slider-row" style="--accent:#DE6547">
+            <label for="s-p">P · 過去一星期，我有多常感到愉快、感恩或放鬆？</label>
+            <output for="s-p" id="o-p">3</output>
+            <input type="range" id="s-p" min="1" max="5" value="3" step="1" data-key="p" aria-describedby="o-p">
+          </div>
+          <div class="slider-row" style="--accent:#C9942F">
+            <label for="s-e">E · 我有多常完全投入一件事，忘記時間？</label>
+            <output for="s-e" id="o-e">3</output>
+            <input type="range" id="s-e" min="1" max="5" value="3" step="1" data-key="e">
+          </div>
+          <div class="slider-row" style="--accent:#0E6B63">
+            <label for="s-r">R · 我有多常感到有人真正明白我、支持我？</label>
+            <output for="s-r" id="o-r">3</output>
+            <input type="range" id="s-r" min="1" max="5" value="3" step="1" data-key="r">
+          </div>
+          <div class="slider-row" style="--accent:#6F63A8">
+            <label for="s-m">M · 我有多常覺得自己在做「有意義」的事？</label>
+            <output for="s-m" id="o-m">3</output>
+            <input type="range" id="s-m" min="1" max="5" value="3" step="1" data-key="m">
+          </div>
+          <div class="slider-row" style="--accent:#2F7E96">
+            <label for="s-a">A · 我有多常為自己的進步感到滿意？</label>
+            <output for="s-a" id="o-a">3</output>
+            <input type="range" id="s-a" min="1" max="5" value="3" step="1" data-key="a">
+          </div>
+          <div class="slider-row" style="--accent:#5E8B4E">
+            <label for="s-h">H · 我的睡眠與體力，有幾穩定？</label>
+            <output for="s-h" id="o-h">3</output>
+            <input type="range" id="s-h" min="1" max="5" value="3" step="1" data-key="h">
+          </div>
+        </div>
+
+        <div class="radar-box">
+          <svg id="radar" viewBox="0 0 340 320" role="img" aria-labelledby="radarTitle">
+            <title id="radarTitle">你的 PERMAH 六元素雷達圖</title>
+            <g id="radarGrid"></g>
+            <polygon id="radarShape" class="shape" points=""></polygon>
+            <g id="radarDots"></g>
+            <text id="radarCenterNum" class="center-num" x="170" y="158" text-anchor="middle">18</text>
+            <text class="center-lbl" x="170" y="172" text-anchor="middle">/ 30</text>
+            <g id="radarLabels"></g>
+          </svg>
+          <p class="readout" id="readout">拖動左邊六條滑桿，這裡會即時顯示你的形狀與一句建議。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 一週實踐 ================= -->
+  <section class="section-pad" id="week" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">可行動的版本</span>
+        <h2>一週實踐表：每天只加一件小事</h2>
+        <p>不要一次做六樣。每天一個元素、一個 10–20 分鐘的動作，七日後你會有一份自己的數據。</p>
+      </div>
+
+      <div class="reveal" style="overflow-x:auto">
+        <table class="week">
+          <thead>
+            <tr>
+              <th scope="col">日子</th>
+              <th scope="col">元素</th>
+              <th scope="col">做什麼（10–20 分鐘）</th>
+              <th scope="col">完成後寫一句</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>星期一</td>
+              <td><span class="tag" style="--accent:#DE6547;--tint:#FBEDE8">P</span>正向情緒</td>
+              <td>睡前寫 3 件好事，其中 1 件寫「為什麼會發生」。</td>
+              <td>今天最想留住的一刻是……</td>
+            </tr>
+            <tr>
+              <td>星期二</td>
+              <td><span class="tag" style="--accent:#C9942F;--tint:#FAF1DF">E</span>投入</td>
+              <td>25 分鐘番茄鐘，只做最不想打開的那一科，手機放另一個房。</td>
+              <td>我卡住的地方是……</td>
+            </tr>
+            <tr>
+              <td>星期三</td>
+              <td><span class="tag" style="--accent:#0E6B63;--tint:#E4F0ED">R</span>關係</td>
+              <td>主動問一位同學「你最近點呀？」並聽多過講。</td>
+              <td>我發現他／她原來……</td>
+            </tr>
+            <tr>
+              <td>星期四</td>
+              <td><span class="tag" style="--accent:#6F63A8;--tint:#EFECF7">M</span>意義</td>
+              <td>幫一個人一件小事（借筆記、教一題、替家人買東西），並記下對方的反應。</td>
+              <td>因為我，……變得順暢了。</td>
+            </tr>
+            <tr>
+              <td>星期五</td>
+              <td><span class="tag" style="--accent:#2F7E96;--tint:#E5F0F4">A</span>成就</td>
+              <td>完成一個 7 日小目標的第一小步，並在日曆打勾。</td>
+              <td>我今日做到的是……</td>
+            </tr>
+            <tr>
+              <td>星期六</td>
+              <td><span class="tag" style="--accent:#5E8B4E;--tint:#EDF3E8">H</span>健康</td>
+              <td>20 分鐘運動（快走、跳繩、打球均可）＋ 睡前 30 分鐘離線。</td>
+              <td>運動後我的身體感覺是……</td>
+            </tr>
+            <tr>
+              <td>星期日</td>
+              <td><span class="tag" style="--accent:#0E6B63;--tint:#E4F0ED">回顧</span>整合</td>
+              <td>重做上面的自我檢視，比較一週前後的形狀。</td>
+              <td>這一週，我最需要繼續的是……</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 迷思 ================= -->
+  <section class="section-pad" id="myths" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">先講清楚</span>
+        <h2>正向教育的四個常見誤解</h2>
+        <p>正向教育不是「唔准唔開心」。它是一套理解情緒、建立資源的方法——包括承認有些日子真的很難過。</p>
+      </div>
+
+      <div class="myth-grid">
+        <article class="myth reveal">
+          <div class="q"><span>迷思 1</span>正向教育＝永遠正能量，唔准傷心</div>
+          <p class="a"><b>不是。</b>正向教育教你辨識、表達、調節情緒，包括憤怒、悲傷、焦慮。壓抑負面情緒反而增加壓力反應；接納它，才有空間處理它。</p>
+        </article>
+
+        <article class="myth reveal">
+          <div class="q"><span>迷思 2</span>PERMAH 是天生性格，改不了</div>
+          <p class="a"><b>不是。</b>六個元素都被視為<strong>可練習的技能</strong>。感恩、專注、維繫關係、設定目標，全部可以透過重複練習變強，像練球一樣。</p>
+        </article>
+
+        <article class="myth reveal">
+          <div class="q"><span>迷思 3</span>成績好自然就會幸福</div>
+          <p class="a"><b>方向可能倒轉。</b>研究顯示幸福感與學業表現相關，而樂觀與良好的人際關係，往往<strong>先</strong>帶來更好的專注、出席率與表現。幸福不是獎品，是燃料。</p>
+        </article>
+
+        <article class="myth reveal">
+          <div class="q"><span>迷思 4</span>做唔到，就係自己唔夠努力</div>
+          <p class="a"><b>不是。</b>環境、資源、支持系統同樣關鍵。當壓力持續、睡不好、提不起勁超過兩星期，<strong>求助是能力，不是失敗</strong>。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 求助 ================= -->
+  <section class="section-pad" id="help" style="padding-top:0">
+    <div class="wrap">
+      <div class="help reveal">
+        <h2>如果這一頁不夠，請找人</h2>
+        <p>這一頁是知識，不是治療。當你連續兩星期以上情緒低落、失眠、對原本喜歡的事失去興趣，或出現傷害自己的念頭——請立刻找學校社工、輔導老師、家人，或以下任何一條熱線。</p>
+
+        <div class="help-grid">
+          <div class="help-card">
+            <b>撒瑪利亞防止自殺會</b>
+            <div class="num">2389 2222</div>
+            <span>24 小時情緒支援熱線</span>
+          </div>
+          <div class="help-card">
+            <b>生命熱線</b>
+            <div class="num">2382 0000</div>
+            <span>24 小時電話輔導</span>
+          </div>
+          <div class="help-card">
+            <b>醫院管理局精神健康專線</b>
+            <div class="num">2466 7350</div>
+            <span>24 小時精神健康諮詢</span>
+          </div>
+        </div>
+
+        <p class="help-note">
+          校內資源同樣重要：學校社工、輔導組老師、班主任都可以是第一步。若你擔心的是身邊的同學，最好的做法不是替他保密，而是陪他一起找一個大人。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 參考 ================= -->
+  <section class="section-pad" id="refs" style="padding-top:0">
+    <div class="wrap narrow">
+      <div class="section-head reveal" style="margin-bottom:1.6rem">
+        <span class="eyebrow">資料來源</span>
+        <h2 style="font-size:1.5rem">參考資料</h2>
+      </div>
+      <ol class="refs reveal">
+        <li>
+          <div>Seligman, M. E. P. <em>Flourish</em>（2011）；PERMA 理論定義見 University of Pennsylvania, Positive Psychology Center。
+            <span class="pub"><a href="https://ppc.sas.upenn.edu/learn-more/perma-theory-well-being-and-perma-workshops" target="_blank" rel="noopener">ppc.sas.upenn.edu — PERMA Theory of Well-Being</a></span>
+          </div>
+        </li>
+        <li>
+          <div>浸信會愛羣社會服務處（2024）。《2024 年中學生幸福感調查》新聞稿。
+            <span class="pub"><a href="https://www.bokss.org.hk/content/press/323/Press%20release_2024%E5%B9%B4%E4%B8%AD%E5%AD%B8%E7%94%9F%E5%B9%B8%E7%A6%8F%E6%84%9F%E8%AA%BF%E6%9F%A5.pdf" target="_blank" rel="noopener">bokss.org.hk（PDF）</a></span>
+          </div>
+        </li>
+        <li>
+          <div>香港青年協會（2025）。《2025 中學生開學適應調查》，5,551 名受訪學生。</div>
+        </li>
+        <li>
+          <div>香港中華基督教青年會（2024）。《香港中學生精神健康素養調查》。
+            <span class="pub"><a href="https://ymca.org.hk/en/2024/09/22/%E6%9C%AC%E6%B8%AF%E9%A6%96%E4%BB%BD%E3%80%8C%E9%A6%99%E6%B8%AF%E4%B8%AD%E5%AD%B8%E7%94%9F%E7%B2%BE%E7%A5%9E%E5%81%A5%E5%BA%B7%E7%B4%A0%E9%A4%8A%E3%80%8D%E8%AA%BF%E6%9F%A5/" target="_blank" rel="noopener">ymca.org.hk</a></span>
+          </div>
+        </li>
+        <li>
+          <div>體路（2024-07-10）。〈巴黎奧運｜江旻憓膝傷下全力備戰「克服傷患是我強項！」〉。
+            <span class="pub"><a href="https://www.hkelite.org/tc/archives/14417" target="_blank" rel="noopener">hkelite.org</a></span>
+          </div>
+        </li>
+        <li>
+          <div>新華社（2021-12-07）。〈谷爱凌：当年滑雪队里唯一的女孩，如今正在书写历史〉。
+            <span class="pub"><a href="http://www.news.cn/2021-12/07/c_1128139747.htm" target="_blank" rel="noopener">news.cn</a></span>
+          </div>
+        </li>
+        <li>
+          <div>東方日報（2016-08-18）。〈奧運專題：愛徒傷口撕裂 沈金康心痛〉。
+            <span class="pub"><a href="https://orientaldaily.on.cc/cnt/news/20160818/00176_142.html" target="_blank" rel="noopener">orientaldaily.on.cc</a></span>
+          </div>
+        </li>
+        <li>
+          <div>余翠怡（2016-07）。〈生命的另一扇門〉，香港體育學院運動員網誌。
+            <span class="pub"><a href="https://www.hksi.org.hk/tc/publication/athletes-blog/201607a" target="_blank" rel="noopener">hksi.org.hk</a></span>
+          </div>
+        </li>
+        <li>
+          <div>香港電台（2024-07-30）。〈巴黎奧運直擊｜張家朗：香港地方雖小 但相信自己就能做很多事〉。
+            <span class="pub"><a href="https://hk.news.yahoo.com/%E5%B7%B4%E9%BB%8E%E5%A5%A7%E9%81%8B%E7%9B%B4%E6%93%8A-%E5%BC%B5%E5%AE%B6%E6%9C%97-%E9%A6%99%E6%B8%AF%E5%9C%B0%E6%96%B9%E9%9B%96%E5%B0%8F-%E4%BD%86%E7%9B%B8%E4%BF%A1%E8%87%AA%E5%B7%B1%E5%B0%B1%E8%83%BD%E5%81%9A%E5%BE%88%E5%A4%9A%E4%BA%8B-223407633.html" target="_blank" rel="noopener">Yahoo 新聞轉載</a></span>
+          </div>
+        </li>
+        <li>
+          <div>鄭秀文相關報道（媒體整理，引述《魯豫有約》訪問內容）。
+            <span class="pub"><a href="https://www.sohu.com/a/479280310_121057625" target="_blank" rel="noopener">sohu.com</a></span>
+          </div>
+        </li>
+      </ol>
+
+      <p style="font-size:.8rem;color:var(--muted);margin-top:1.6rem">
+        註：本頁人物引述均取自上述公開報道或官方文章，並保留原文語句；部分為媒體轉述而非逐字官方文稿，已在對應位置標示。
+        數據以各調查公布之受訪樣本為準，不能直接推論全港所有學生。
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap foot-grid">
+    <div>
+      <p><b>PERMAH 正向教育</b> · 中學生版</p>
+      <p>以 Seligman 的 PERMA 理論為骨架，加入 Health 元素。</p>
+    </div>
+    <p class="foot-note">
+      本頁為教育用途的整理，不構成心理或醫療診斷。如果你正在經歷困難，請聯絡學校社工、輔導老師，或上列任何一條 24 小時熱線。
+    </p>
+  </div>
+</footer>
+
+<button id="toTop" aria-label="回到頂部">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<script src="app.js"></script>
+</body>
+</html>
